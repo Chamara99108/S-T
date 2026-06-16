@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachini & Tharindu's Wedding Invitation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Cinzel:wght@400;600&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+
+    <!-- 1. HERO SECTION -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="subtitle-top">TOGETHER WITH OUR FAMILIES</p>
+            <h1 class="couple-names">Sachini  Tharindu</h1>
+            <p class="subtitle-bottom">INVITE YOU TO CELEBRATE OUR WEDDING</p>
+            <div class="gold-divider">♦ 🤍 ♦</div>
+
+            <!-- Info Grid Layout -->
+            <div class="info-grid">
+                <div class="info-item">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <div>
+                        <h3>DATE</h3>
+                        <p>07.24.2026</p>
+                        <p class="sub-text">Friday</p>
+                    </div>
+                </div>
+                <div class="info-item border-sides">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h3>VENUE</h3>
+                        <p>Earls' Regent Hotel</p>
+                        <p class="sub-text">Kandy, Sri Lanka</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-regular fa-clock"></i>
+                    <div>
+                        <h3>TIME</h3>
+                        <p>09:30 AM</p>
+                        <p class="sub-text">Onwards</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="hero-buttons">
+                <button class="btn btn-rsvp" onclick="scrollToSection('rsvp-section')"><i class="fa-solid fa-heart"></i> RSVP NOW</button>
+                <button class="btn btn-wish" onclick="scrollToSection('wishes-section')"><i class="fa-regular fa-envelope"></i> LEAVE A WISH</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. COUNTDOWN SECTION -->
+    <section class="countdown-section">
+        <h2>COUNTDOWN TO OUR BIG DAY</h2>
+        <div class="gold-divider">♦</div>
+        <div id="countdown" class="countdown-container">
+            <div class="time-block"><span id="days">00</span><p>DAYS</p></div>
+            <div class="time-separator">•</div>
+            <div class="time-block"><span id="hours">00</span><p>HOURS</p></div>
+            <div class="time-separator">•</div>
+            <div class="time-block"><span id="minutes">00</span><p>MINUTES</p></div>
+            <div class="time-separator">•</div>
+            <div class="time-block"><span id="seconds">00</span><p>SECONDS</p></div>
+        </div>
+    </section>
+
+    <!-- 3. OUR STORY SECTION -->
+    <section class="story-section">
+        <div class="story-container">
+            <div class="story-image-wrapper">
+                <img src="Media.png" alt="Wedding Couple" class="story-img">
+            </div>
+            <div class="story-text">
+                <h2>Our Forever Begins</h2>
+                <div class="heart-icon">🤍</div>
+                <p>From the moment our paths crossed, we knew our story was meant to be. Now, we joyfully invite you to be a part of the beginning of our new chapter together.</p>
+                <!-- <button class="btn-story">OUR STORY</button> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. RSVP SECTION -->
+    <section id="rsvp-section" class="rsvp-form-section">
+        <h2>Kindly Respond</h2>
+        <p class="rsvp-sub">Please let us know if you can make it before June 30, 2026</p>
+        <div class="iframe-container">
+            <!-- PASTE YOUR GOOGLE FORM LINK IN THE SRC BELOW -->
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSftmpjjZ1LK9zw4FR65rsx-0D5Jw9edUwQNeiM3T_MV9-MB2Q/viewform?usp=publish-editor?embedded=true" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading Form...</iframe>
+        </div>
+    </section>
+
+    <!-- 5. WISHES / GUESTBOOK SECTION -->
+    <section id="wishes-section" class="wishes-section">
+        <h2>Leave Your Blessings</h2>
+        <p class="wishes-sub">Your words mean the world to us. Share your wishes publicly below!</p>
+        <div class="iframe-container">
+            <!-- PASTE YOUR PADLET EMBED URL IN THE SRC BELOW -->
+            <iframe src="https://padlet.com/chamaralakshan99108/your-wishes-tharidu-sachini-qhgembpqfvv1x5p3" width="100%" height="500" style="border:none; border-radius: 8px;">Loading Guestbook...</iframe>
+        </div>
+    </section>
+
+    <!-- 6. TIMELINE FOOTER -->
+    <footer class="timeline-footer">
+        <div class="footer-grid">
+            <div class="footer-item">
+                <i class="fa-solid fa-church"></i>
+                <h4>The Ceremony</h4>
+                <p>09:00 AM</p>
+            </div>
+            <div class="footer-item">
+                <i class="fa-solid fa-champagne-glasses"></i>
+                <h4>Reception</h4>
+                <p>12:00 PM</p>
+            </div>
+            <div class="footer-item">
+                <i class="fa-solid fa-camera"></i>
+                <h4>Memories</h4>
+                <p>Capture Moments</p>
+            </div>
+            <div class="footer-item">
+                <i class="fa-solid fa-gift"></i>
+                <h4>Your Wishes</h4>
+                <p>Mean Everything</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
