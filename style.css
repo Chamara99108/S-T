@@ -19,7 +19,7 @@ body {
 .hero {
     position: relative;
     min-height: 80vh;
-    background: url('inv.png') no-repeat center center/cover;
+    background: url('inew.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,7 @@ body {
 .hero-overlay {
     position: absolute;
     top: 0; left: 0; width: 100%; height: 100%;
-    background: linear-gradient(to bottom, rgba(122, 153, 125, 0.568), rgba(184, 180, 149, 0.315));
+    background: linear-gradient(to bottom, rgba(181, 204, 183, 0.274), rgba(184, 180, 149, 0.199));
     z-index: 1;
 }
 .hero-content {
@@ -102,11 +102,11 @@ body {
 }
 .info-item .sub-text {
     font-size: 15px;
-    color: #807f5f;
+    color: #444321;
 }
 .border-sides {
-    border-left: 2px solid rgba(223, 196, 154, 0.514);
-    border-right: 2px solid rgba(223, 196, 154, 0.486);
+    border-left: 3px solid rgb(223, 197, 154);
+    border-right: 3px solid rgb(223, 197, 154);
 }
 
 /* Interactive Action Buttons */
@@ -130,21 +130,21 @@ body {
     max-width: 240px;
 }
 .btn-rsvp {
-    background: linear-gradient(135deg, #b35d7f, #cb7a94);
-    color: #ffffff;
-    box-shadow: 0 4px 15px rgba(179, 93, 127, 0.4);
+    background: linear-gradient(135deg, #b4ca9f, #f1f095);
+    color: #000000;
+    box-shadow: 0 4px 15px rgba(93, 179, 115, 0.4);
 }
 .btn-rsvp:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(179, 93, 127, 0.6);
+    box-shadow: 0 6px 20px rgba(175, 164, 8, 0.637);
 }
 .btn-wish {
     background: transparent;
-    color: #ffffff;
+    color: #63625b;
     border: 1px solid #dfc39a;
 }
 .btn-wish:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, #d9e2ce, #e6e366);
     transform: translateY(-2px);
 }
 
@@ -344,8 +344,8 @@ iframe {
     .border-sides {
         border-left: none;
         border-right: none;
-        border-top: 1px solid rgba(223, 195, 154, 0.3);
-        border-bottom: 1px solid rgba(223, 195, 154, 0.3);
+        border-top: 2px solid rgba(58, 51, 39, 0.788);
+        border-bottom: 2px solid rgba(58, 51, 39, 0.788);
         padding: 25px 0;
     }
     .hero-buttons {
