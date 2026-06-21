@@ -1,6 +1,6 @@
 // COUNTDOWN TIMER LOGIC
 // Target Date: July 21, 2026
-const weddingDate = new Date("July 21, 2026 09:00:00").getTime();
+const weddingDate = new Date("July 24, 2026 09:00:00").getTime();
 
 const timerInterval = setInterval(function() {
     const now = new Date().getTime();

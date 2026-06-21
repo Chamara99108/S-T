@@ -10,7 +10,8 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     color: #4a4a4a;
-    background-color: #fff9f6;
+    /* background-color: #fff9f6; */
+    background-color: #ffe4ec;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
 }
